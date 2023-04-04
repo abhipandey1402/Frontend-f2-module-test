@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container h1{
+    text-align: left;
+}
+
+.container{
+    margin: 20px 40px;
+}
+
+.inner-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap:30px;
+}
+
+.inner-container input{
+    background-color: black;
+    border: 1px solid white;
+    height: 30px;
+    padding-left: 10px;
+    width: auto;
+    color: white;
+}
+
+.button {
+    height: 35px;
+    width: 40vw;
+    margin: 20px;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.search{
+    background-color: black;
+    border: 1px solid white;
+    height: 35px;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:100%;
+    padding-left: 10px;
+    color: white;
+}
+
+.table{
+    border: 1px solid white;
+    width:100%;
+    border-spacing: 0;
+    min-height: 250px;
+    overflow-x: auto;
+}
+
+th,td{
+    text-align: left;
+}
+th{
+    padding: 15px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+td{
+    padding: 15px;
+    border-right: 1px solid white;
+}
+
+tbody{
+    height: auto;
+}
+
+.icons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap:5px
+}
+
+.degree{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
